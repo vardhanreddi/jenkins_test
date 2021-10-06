@@ -5,7 +5,7 @@ pipeline {
         stage('PullSourcecode') {
             steps {
                 // Get some code from a GitHub repository
-                git credentialsId: 'ssh', url: 'git@github.com:vardhanreddi/jenkins_test.git'
+                git credentialsId: 'def4775f-bd1e-439f-8c95-f11301c9e5dc', url: 'git@github.com:vardhanreddi/jenkins_test.git'
                 }
             }
         stage('build application') {
